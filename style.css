@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    height: 100vh;
 }
 button{
     border-radius: 10px;
@@ -13,7 +13,12 @@ button{
     padding: 9px 10px;
     cursor: pointer;
 }
-
+section {
+    flex:1;
+}
+footer {
+    align-self: flex-end ;
+}
 button:hover {
  background-color: rgb(54, 54, 54);
 }
